@@ -22,12 +22,15 @@ func (s *StringStack) Push(i string) {
 func (s *StringStack) Pop() string {
 	s.mu.Lock()
 	defer s.mu.Unlock()
+	
 	ln := len(s.items)
 	if ln == 0 {
 		return ""
 	}
+	
 	tail := s.items[ln-1]
 	s.items = s.items[:ln-1]
+	
 	return tail
 }
 
