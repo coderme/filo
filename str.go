@@ -8,7 +8,7 @@ import (
 // safe for concurrent usage
 type StringStack struct {
 	items []string
-	mu    *sync.Mutex
+	mu    *sync.RWMutex
 }
 
 // Push pushes new item to the stack
@@ -22,21 +22,29 @@ func (s *StringStack) Push(i string) {
 func (s *StringStack) Pop() string {
 	s.mu.Lock()
 	defer s.mu.Unlock()
-	
+
 	ln := len(s.items)
 	if ln == 0 {
 		return ""
 	}
-	
+
 	tail := s.items[ln-1]
 	s.items = s.items[:ln-1]
-	
+
 	return tail
+}
+
+// Len gets the number of items pushed
+// into the stack
+func (s *StringStack) Len() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.items)
 }
 
 // NewStringStack creates new StringStack
 func NewStringStack() *StringStack {
 	return &StringStack{
-		mu: &sync.Mutex{},
+		mu: &sync.RWMutex{},
 	}
 }
