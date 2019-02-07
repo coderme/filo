@@ -5,6 +5,11 @@ import (
 	"testing"
 )
 
+var (
+	strBenchLen    int
+	strBenchResult string
+)
+
 func TestStringStack_Len(t *testing.T) {
 	stack := NewStringStack()
 
@@ -27,11 +32,19 @@ func TestStringStack_Len(t *testing.T) {
 
 func BenchmarkStringStack(b *testing.B) {
 	stack := NewStringStack()
+	var (
+		ln int
+		r  string
+	)
+
 	for i := 0; i < b.N; i++ {
 		stack.Push("a")
-		stack.Len()
-		stack.Pop()
+		ln = stack.Len()
+		r = stack.Pop()
 	}
+
+	strBenchLen = ln
+	strBenchResult = r
 
 }
 
