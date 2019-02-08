@@ -12,9 +12,9 @@ type GenericStack struct {
 }
 
 // Push pushes new interface{} to the stack
-func (g *GenericStack) Push(i interface{}) {
+func (g *GenericStack) Push(j interface{}) {
 	g.mu.Lock()
-	g.items = append(g.items, i)
+	g.items = append(g.items, j)
 	g.mu.Unlock()
 }
 

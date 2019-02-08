@@ -12,9 +12,9 @@ type StringStack struct {
 }
 
 // Push pushes new item to the stack
-func (s *StringStack) Push(i string) {
+func (s *StringStack) Push(j string) {
 	s.mu.Lock()
-	s.items = append(s.items, i)
+	s.items = append(s.items, j)
 	s.mu.Unlock()
 }
 
