@@ -3,3 +3,4 @@
 
 ## Features
 * Concurrency-safe.
+* Infinite, no size limit of the data stored in the stack.
