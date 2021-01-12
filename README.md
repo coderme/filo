@@ -4,3 +4,4 @@
 ## Features
 * Concurrency-safe.
 * Infinite, no size limit of the data stored in the stack.
+* Can be used where FILO model is needed rather than FIFO (The default model found Channels).
