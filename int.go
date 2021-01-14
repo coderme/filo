@@ -4,3 +4,4 @@ import (
 	"sync"
 )
 
+// IntStack integer stack first in last out
