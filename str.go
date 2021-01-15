@@ -4,3 +4,4 @@ import (
 	"sync"
 )
 
+// StringStack stack first in last out
