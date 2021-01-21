@@ -5,3 +5,4 @@ import (
 )
 
 // StringStack stack first in last out
+// safe for concurrent usage
