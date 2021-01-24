@@ -6,3 +6,4 @@ import (
 )
 
 var (
+	genericBenchLen    int
