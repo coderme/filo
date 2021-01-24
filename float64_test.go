@@ -6,3 +6,4 @@ import (
 )
 
 var (
+	floate64BenchLen   int
