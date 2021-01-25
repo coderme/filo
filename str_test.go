@@ -6,3 +6,4 @@ import (
 )
 
 var (
+	strBenchLen    int
