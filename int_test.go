@@ -7,3 +7,4 @@ import (
 
 var (
 	intBenchLen    int
+	intBenchResult int
