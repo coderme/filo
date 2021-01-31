@@ -7,3 +7,4 @@ import (
 // StringStack stack first in last out
 // safe for concurrent usage
 type StringStack struct {
+	items []string
