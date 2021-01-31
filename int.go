@@ -7,3 +7,4 @@ import (
 // IntStack integer stack first in last out
 // safe for concurrent usage
 type IntStack struct {
+	items []int
