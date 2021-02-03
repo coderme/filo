@@ -8,3 +8,4 @@
 * Generic stack for complex types.
 * Special stack for string, float64 and int type.
 
+## Installation
