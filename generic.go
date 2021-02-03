@@ -8,3 +8,4 @@ import (
 // safe for concurrent usage
 type GenericStack struct {
 	items []interface{}
+	mu    *sync.RWMutex
