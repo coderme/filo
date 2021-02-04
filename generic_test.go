@@ -8,3 +8,4 @@ import (
 var (
 	genericBenchLen    int
 	genericBenchResult interface{}
+)
