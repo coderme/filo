@@ -8,3 +8,4 @@ import (
 // safe for concurrent usage
 type StringStack struct {
 	items []string
+	mu    *sync.RWMutex
