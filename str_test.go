@@ -8,3 +8,4 @@ import (
 var (
 	strBenchLen    int
 	strBenchResult string
+)
