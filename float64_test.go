@@ -9,3 +9,4 @@ var (
 	floate64BenchLen   int
 	float64BenchResult float64
 )
+
