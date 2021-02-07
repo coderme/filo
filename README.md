@@ -9,3 +9,4 @@
 * Special stack for string, float64 and int type.
 
 ## Installation
+* Use the `go get` as `go get github.com/coderme/filo`
