@@ -9,3 +9,4 @@ var (
 	genericBenchLen    int
 	genericBenchResult interface{}
 )
+
