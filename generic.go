@@ -9,3 +9,4 @@ import (
 type GenericStack struct {
 	items []interface{}
 	mu    *sync.RWMutex
+}
