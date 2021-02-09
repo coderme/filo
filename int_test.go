@@ -9,3 +9,4 @@ var (
 	intBenchLen    int
 	intBenchResult int
 )
+
