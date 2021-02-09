@@ -9,3 +9,4 @@ import (
 type StringStack struct {
 	items []string
 	mu    *sync.RWMutex
+}
