@@ -9,3 +9,4 @@ var (
 	strBenchLen    int
 	strBenchResult string
 )
+
