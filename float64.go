@@ -10,3 +10,4 @@ type Float64Stack struct {
 	items []float64
 	mu    *sync.RWMutex
 }
+
