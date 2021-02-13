@@ -10,3 +10,4 @@ var (
 	genericBenchResult interface{}
 )
 
+func TestGenericStack_Len(t *testing.T) {
