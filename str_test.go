@@ -10,3 +10,4 @@ var (
 	strBenchResult string
 )
 
+func TestStringStack_Len(t *testing.T) {
