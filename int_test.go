@@ -10,3 +10,4 @@ var (
 	intBenchResult int
 )
 
+func TestIntStack_Len(t *testing.T) {
