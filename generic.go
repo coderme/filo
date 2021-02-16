@@ -11,3 +11,4 @@ type GenericStack struct {
 	mu    *sync.RWMutex
 }
 
+// Push pushes new interface{} to the stack
