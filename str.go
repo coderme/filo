@@ -11,3 +11,4 @@ type StringStack struct {
 	mu    *sync.RWMutex
 }
 
+// Push pushes new item to the stack
