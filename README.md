@@ -13,3 +13,4 @@
 * Or clone this repo into $GOPATH/github.com/coderme
 
 ## Usage
+* Import the pkg `import "github.com/coderme/filo"`
