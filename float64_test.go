@@ -13,3 +13,4 @@ var (
 func TestFloat64Stack_Len(t *testing.T) {
 	stack := NewFloat64Stack()
 
+	if stack.Len() != 0 {
