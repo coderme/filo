@@ -13,3 +13,4 @@ var (
 func TestIntStack_Len(t *testing.T) {
 	stack := NewIntStack()
 
+	if stack.Len() != 0 {
