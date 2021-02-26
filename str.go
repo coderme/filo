@@ -13,3 +13,4 @@ type StringStack struct {
 
 // Push pushes new item to the stack
 func (s *StringStack) Push(j string) {
+	s.mu.Lock()
