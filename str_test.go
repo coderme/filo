@@ -13,3 +13,4 @@ var (
 func TestStringStack_Len(t *testing.T) {
 	stack := NewStringStack()
 
+	if stack.Len() != 0 {
