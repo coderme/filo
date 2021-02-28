@@ -14,3 +14,4 @@ func TestFloat64Stack_Len(t *testing.T) {
 	stack := NewFloat64Stack()
 
 	if stack.Len() != 0 {
+		t.Error("Len() on empty stack is not zero")
