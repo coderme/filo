@@ -14,3 +14,4 @@ type IntStack struct {
 // Push pushes new item to the stack
 func (i *IntStack) Push(j int) {
 	i.mu.Lock()
+	i.items = append(i.items, j)
