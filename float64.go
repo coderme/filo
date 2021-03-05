@@ -15,3 +15,4 @@ type Float64Stack struct {
 func (f *Float64Stack) Push(j float64) {
 	f.mu.Lock()
 	f.items = append(f.items, j)
+	f.mu.Unlock()
