@@ -15,3 +15,4 @@ type GenericStack struct {
 func (g *GenericStack) Push(j interface{}) {
 	g.mu.Lock()
 	g.items = append(g.items, j)
+	g.mu.Unlock()
