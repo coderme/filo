@@ -15,3 +15,4 @@ func TestIntStack_Len(t *testing.T) {
 
 	if stack.Len() != 0 {
 		t.Error("Len() on empty stack is not zero")
+	}
