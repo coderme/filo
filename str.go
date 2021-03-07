@@ -15,3 +15,4 @@ type StringStack struct {
 func (s *StringStack) Push(j string) {
 	s.mu.Lock()
 	s.items = append(s.items, j)
+	s.mu.Unlock()
