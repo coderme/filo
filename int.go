@@ -16,3 +16,4 @@ func (i *IntStack) Push(j int) {
 	i.mu.Lock()
 	i.items = append(i.items, j)
 	i.mu.Unlock()
+}
