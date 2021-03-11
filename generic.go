@@ -17,3 +17,4 @@ func (g *GenericStack) Push(j interface{}) {
 	g.items = append(g.items, j)
 	g.mu.Unlock()
 }
+
