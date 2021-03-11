@@ -17,3 +17,4 @@ func (f *Float64Stack) Push(j float64) {
 	f.items = append(f.items, j)
 	f.mu.Unlock()
 }
+
