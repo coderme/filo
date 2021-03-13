@@ -18,3 +18,4 @@ func TestFloat64Stack_Len(t *testing.T) {
 	}
 
 	stack.Push(1.3)
+
