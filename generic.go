@@ -18,3 +18,4 @@ func (g *GenericStack) Push(j interface{}) {
 	g.mu.Unlock()
 }
 
+// Pop pops the last interface{} from the stack
