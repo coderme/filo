@@ -18,3 +18,4 @@ func (i *IntStack) Push(j int) {
 	i.mu.Unlock()
 }
 
+// Pop pops the last string from the stack
