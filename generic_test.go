@@ -18,3 +18,4 @@ func TestGenericStack_Len(t *testing.T) {
 	}
 
 	stack.Push(1)
+
