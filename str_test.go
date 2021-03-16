@@ -18,3 +18,4 @@ func TestStringStack_Len(t *testing.T) {
 	}
 
 	stack.Push("a")
+
