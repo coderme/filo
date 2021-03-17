@@ -19,3 +19,4 @@ func TestFloat64Stack_Len(t *testing.T) {
 
 	stack.Push(1.3)
 
+	if stack.Len() != 1 {
