@@ -19,3 +19,4 @@ func (s *StringStack) Push(j string) {
 }
 
 // Pop pops the last string from the stack
+func (s *StringStack) Pop() string {
