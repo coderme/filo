@@ -19,3 +19,4 @@ func (g *GenericStack) Push(j interface{}) {
 }
 
 // Pop pops the last interface{} from the stack
+func (g *GenericStack) Pop() interface{} {
