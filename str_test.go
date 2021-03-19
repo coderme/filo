@@ -19,3 +19,4 @@ func TestStringStack_Len(t *testing.T) {
 
 	stack.Push("a")
 
+	if stack.Len() != 1 {
