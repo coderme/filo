@@ -20,3 +20,4 @@ func TestGenericStack_Len(t *testing.T) {
 	stack.Push(1)
 
 	if stack.Len() != 1 {
+		t.Error("Len() on 1-value stack is not 1")
