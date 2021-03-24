@@ -21,3 +21,4 @@ func (f *Float64Stack) Push(j float64) {
 // Pop pops the last string from the stack
 func (f *Float64Stack) Pop() float64 {
 	f.mu.Lock()
+	defer f.mu.Unlock()
