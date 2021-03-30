@@ -22,3 +22,4 @@ func TestFloat64Stack_Len(t *testing.T) {
 	if stack.Len() != 1 {
 		t.Error("Len() on 1-value stack is not 1")
 	}
+
