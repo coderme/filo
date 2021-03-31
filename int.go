@@ -22,3 +22,4 @@ func (i *IntStack) Push(j int) {
 func (i *IntStack) Pop() int {
 	i.mu.Lock()
 	defer i.mu.Unlock()
+
