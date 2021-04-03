@@ -23,3 +23,4 @@ func (f *Float64Stack) Pop() float64 {
 	f.mu.Lock()
 	defer f.mu.Unlock()
 
+	ln := len(f.items)
