@@ -23,3 +23,4 @@ func (g *GenericStack) Pop() interface{} {
 	g.mu.Lock()
 	defer g.mu.Unlock()
 	ln := len(g.items)
+	if ln == 0 {
