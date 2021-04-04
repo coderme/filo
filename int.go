@@ -23,3 +23,4 @@ func (i *IntStack) Pop() int {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 
+	ln := len(i.items)
