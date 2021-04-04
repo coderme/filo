@@ -23,3 +23,4 @@ func TestGenericStack_Len(t *testing.T) {
 		t.Error("Len() on 1-value stack is not 1")
 	}
 
+	stack.Pop()
