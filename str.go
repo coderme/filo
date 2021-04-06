@@ -23,3 +23,4 @@ func (s *StringStack) Pop() string {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 
+	ln := len(s.items)
