@@ -24,3 +24,4 @@ func TestIntStack_Len(t *testing.T) {
 	}
 
 	stack.Pop()
+	if stack.Len() != 0 {
