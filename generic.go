@@ -25,3 +25,4 @@ func (g *GenericStack) Pop() interface{} {
 	ln := len(g.items)
 	if ln == 0 {
 		return nil
+	}
