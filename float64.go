@@ -25,3 +25,4 @@ func (f *Float64Stack) Pop() float64 {
 
 	ln := len(f.items)
 	if ln == 0 {
+		return 0
