@@ -25,3 +25,4 @@ func (i *IntStack) Pop() int {
 
 	ln := len(i.items)
 	if ln == 0 {
+		return 0
