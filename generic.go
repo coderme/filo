@@ -26,3 +26,4 @@ func (g *GenericStack) Pop() interface{} {
 	if ln == 0 {
 		return nil
 	}
+	tail := g.items[ln-1]
