@@ -26,3 +26,4 @@ func (s *StringStack) Pop() string {
 	ln := len(s.items)
 	if ln == 0 {
 		return ""
+	}
