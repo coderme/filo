@@ -27,3 +27,4 @@ func (f *Float64Stack) Pop() float64 {
 	if ln == 0 {
 		return 0
 	}
+
