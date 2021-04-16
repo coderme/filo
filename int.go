@@ -27,3 +27,4 @@ func (i *IntStack) Pop() int {
 	if ln == 0 {
 		return 0
 	}
+
