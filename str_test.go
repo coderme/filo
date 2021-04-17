@@ -27,3 +27,4 @@ func TestStringStack_Len(t *testing.T) {
 	if stack.Len() != 0 {
 		t.Error("Len() on drained stack is not zero")
 	}
+
