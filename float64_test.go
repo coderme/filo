@@ -28,3 +28,4 @@ func TestFloat64Stack_Len(t *testing.T) {
 		t.Error("Len() on drained stack is not zero")
 	}
 
+}
