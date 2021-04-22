@@ -28,3 +28,4 @@ func TestStringStack_Len(t *testing.T) {
 		t.Error("Len() on drained stack is not zero")
 	}
 
+}
