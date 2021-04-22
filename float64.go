@@ -29,3 +29,4 @@ func (f *Float64Stack) Pop() float64 {
 	}
 
 	tail := f.items[ln-1]
+	f.items = f.items[:ln-1]
