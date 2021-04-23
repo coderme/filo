@@ -29,3 +29,4 @@ func TestIntStack_Len(t *testing.T) {
 	}
 
 }
+
