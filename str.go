@@ -29,3 +29,4 @@ func (s *StringStack) Pop() string {
 	}
 
 	tail := s.items[ln-1]
+	s.items = s.items[:ln-1]
