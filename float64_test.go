@@ -30,3 +30,4 @@ func TestFloat64Stack_Len(t *testing.T) {
 
 }
 
+func BenchmarkFloat64Stack(b *testing.B) {
