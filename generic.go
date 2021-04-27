@@ -30,3 +30,4 @@ func (g *GenericStack) Pop() interface{} {
 	g.items = g.items[:ln-1]
 	return tail
 }
+
