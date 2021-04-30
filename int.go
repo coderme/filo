@@ -30,3 +30,4 @@ func (i *IntStack) Pop() int {
 
 	tail := i.items[ln-1]
 	i.items = i.items[:ln-1]
+
