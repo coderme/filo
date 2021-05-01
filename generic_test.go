@@ -31,3 +31,4 @@ func TestGenericStack_Len(t *testing.T) {
 }
 
 func BenchmarkGenericStack(b *testing.B) {
+	stack := NewGenericStack()
