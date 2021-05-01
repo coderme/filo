@@ -31,3 +31,4 @@ func (g *GenericStack) Pop() interface{} {
 	return tail
 }
 
+// Len gets the number of items pushed
