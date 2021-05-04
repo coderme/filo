@@ -32,3 +32,4 @@ func TestIntStack_Len(t *testing.T) {
 
 func BenchmarkIntStack(b *testing.B) {
 	stack := NewIntStack()
+	var r, ln int
