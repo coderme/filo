@@ -33,3 +33,4 @@ func (f *Float64Stack) Pop() float64 {
 
 	return tail
 }
+
