@@ -33,3 +33,4 @@ func (i *IntStack) Pop() int {
 
 	return tail
 }
+
