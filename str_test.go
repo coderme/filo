@@ -33,3 +33,4 @@ func TestStringStack_Len(t *testing.T) {
 func BenchmarkStringStack(b *testing.B) {
 	stack := NewStringStack()
 	var (
+		ln int
