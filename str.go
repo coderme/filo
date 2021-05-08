@@ -33,3 +33,4 @@ func (s *StringStack) Pop() string {
 
 	return tail
 }
+
