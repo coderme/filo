@@ -34,3 +34,4 @@ func (i *IntStack) Pop() int {
 	return tail
 }
 
+// Len gets the number of items pushed
