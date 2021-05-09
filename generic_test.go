@@ -34,3 +34,4 @@ func BenchmarkGenericStack(b *testing.B) {
 	stack := NewGenericStack()
 	var ln int
 	var r interface{}
+	for i := 0; i < b.N; i++ {
