@@ -34,3 +34,4 @@ func (g *GenericStack) Pop() interface{} {
 // Len gets the number of items pushed
 // into the stack
 func (g *GenericStack) Len() int {
+	g.mu.RLock()
