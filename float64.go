@@ -34,3 +34,4 @@ func (f *Float64Stack) Pop() float64 {
 	return tail
 }
 
+// Len gets the number of items pushed
