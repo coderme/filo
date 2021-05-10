@@ -34,3 +34,4 @@ func BenchmarkIntStack(b *testing.B) {
 	stack := NewIntStack()
 	var r, ln int
 	for i := 0; i < b.N; i++ {
+		stack.Push(1)
