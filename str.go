@@ -34,3 +34,4 @@ func (s *StringStack) Pop() string {
 	return tail
 }
 
+// Len gets the number of items pushed
