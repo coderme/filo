@@ -34,3 +34,4 @@ func BenchmarkStringStack(b *testing.B) {
 	stack := NewStringStack()
 	var (
 		ln int
+		r  string
