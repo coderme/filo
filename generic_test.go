@@ -35,3 +35,4 @@ func BenchmarkGenericStack(b *testing.B) {
 	var ln int
 	var r interface{}
 	for i := 0; i < b.N; i++ {
+		stack.Push(1)
