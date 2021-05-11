@@ -35,3 +35,4 @@ func (g *GenericStack) Pop() interface{} {
 // into the stack
 func (g *GenericStack) Len() int {
 	g.mu.RLock()
+	defer g.mu.RUnlock()
