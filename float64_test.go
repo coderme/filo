@@ -35,3 +35,4 @@ func BenchmarkFloat64Stack(b *testing.B) {
 	var (
 		ln int
 		r  float64
+	)
