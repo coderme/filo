@@ -35,3 +35,4 @@ func BenchmarkIntStack(b *testing.B) {
 	var r, ln int
 	for i := 0; i < b.N; i++ {
 		stack.Push(1)
+		ln = stack.Len()
