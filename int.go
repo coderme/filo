@@ -36,3 +36,4 @@ func (i *IntStack) Pop() int {
 
 // Len gets the number of items pushed
 // into the stack
+func (i *IntStack) Len() int {
