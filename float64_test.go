@@ -37,3 +37,4 @@ func BenchmarkFloat64Stack(b *testing.B) {
 		r  float64
 	)
 	for i := 0; i < b.N; i++ {
+		stack.Push(1.3)
