@@ -37,3 +37,4 @@ func (f *Float64Stack) Pop() float64 {
 // Len gets the number of items pushed
 // into the stack
 func (f *Float64Stack) Len() int {
+	f.mu.RLock()
