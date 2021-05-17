@@ -36,3 +36,4 @@ func BenchmarkStringStack(b *testing.B) {
 		ln int
 		r  string
 	)
+
