@@ -37,3 +37,4 @@ func (s *StringStack) Pop() string {
 // Len gets the number of items pushed
 // into the stack
 func (s *StringStack) Len() int {
+	s.mu.RLock()
