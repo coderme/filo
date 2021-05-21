@@ -37,3 +37,4 @@ func BenchmarkIntStack(b *testing.B) {
 		stack.Push(1)
 		ln = stack.Len()
 		r = stack.Pop()
+	}
