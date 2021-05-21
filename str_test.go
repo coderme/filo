@@ -37,3 +37,4 @@ func BenchmarkStringStack(b *testing.B) {
 		r  string
 	)
 
+	for i := 0; i < b.N; i++ {
