@@ -38,3 +38,4 @@ func (f *Float64Stack) Pop() float64 {
 // into the stack
 func (f *Float64Stack) Len() int {
 	f.mu.RLock()
+	defer f.mu.RUnlock()
