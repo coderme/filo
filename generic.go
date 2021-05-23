@@ -38,3 +38,4 @@ func (g *GenericStack) Len() int {
 	defer g.mu.RUnlock()
 	return len(g.items)
 }
+
