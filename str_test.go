@@ -38,3 +38,4 @@ func BenchmarkStringStack(b *testing.B) {
 	)
 
 	for i := 0; i < b.N; i++ {
+		stack.Push("a")
