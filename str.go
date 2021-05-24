@@ -38,3 +38,4 @@ func (s *StringStack) Pop() string {
 // into the stack
 func (s *StringStack) Len() int {
 	s.mu.RLock()
+	defer s.mu.RUnlock()
