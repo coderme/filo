@@ -39,3 +39,4 @@ func (f *Float64Stack) Pop() float64 {
 func (f *Float64Stack) Len() int {
 	f.mu.RLock()
 	defer f.mu.RUnlock()
+	return len(f.items)
