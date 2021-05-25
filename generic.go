@@ -39,3 +39,4 @@ func (g *GenericStack) Len() int {
 	return len(g.items)
 }
 
+// NewGenericStack creates new GenericStack
