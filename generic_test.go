@@ -39,3 +39,4 @@ func BenchmarkGenericStack(b *testing.B) {
 		ln = stack.Len()
 		r = stack.Pop()
 	}
+	genericBenchLen = ln
