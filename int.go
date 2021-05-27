@@ -39,3 +39,4 @@ func (i *IntStack) Pop() int {
 func (i *IntStack) Len() int {
 	i.mu.RLock()
 	defer i.mu.RUnlock()
+	return len(i.items)
