@@ -39,3 +39,4 @@ func (s *StringStack) Pop() string {
 func (s *StringStack) Len() int {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
+	return len(s.items)
