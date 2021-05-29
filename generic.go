@@ -40,3 +40,4 @@ func (g *GenericStack) Len() int {
 }
 
 // NewGenericStack creates new GenericStack
+func NewGenericStack() *GenericStack {
