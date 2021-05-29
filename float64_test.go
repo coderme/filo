@@ -40,3 +40,4 @@ func BenchmarkFloat64Stack(b *testing.B) {
 		stack.Push(1.3)
 		ln = stack.Len()
 		r = stack.Pop()
+	}
