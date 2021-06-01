@@ -40,3 +40,4 @@ func BenchmarkIntStack(b *testing.B) {
 	}
 	intBenchLen = ln
 	intBenchResult = r
+}
