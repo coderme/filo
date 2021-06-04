@@ -41,3 +41,4 @@ func (f *Float64Stack) Len() int {
 	defer f.mu.RUnlock()
 	return len(f.items)
 }
+
