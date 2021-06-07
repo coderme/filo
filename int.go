@@ -41,3 +41,4 @@ func (i *IntStack) Len() int {
 	defer i.mu.RUnlock()
 	return len(i.items)
 }
+
