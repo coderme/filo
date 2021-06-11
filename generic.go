@@ -42,3 +42,4 @@ func (g *GenericStack) Len() int {
 // NewGenericStack creates new GenericStack
 func NewGenericStack() *GenericStack {
 	return &GenericStack{
+		mu: &sync.RWMutex{},
