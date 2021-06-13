@@ -42,3 +42,4 @@ func BenchmarkIntStack(b *testing.B) {
 	intBenchResult = r
 }
 
+func ExampleIntStack() {
