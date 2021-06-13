@@ -42,3 +42,4 @@ func (s *StringStack) Len() int {
 	return len(s.items)
 }
 
+// NewStringStack creates new StringStack
