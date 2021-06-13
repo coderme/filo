@@ -42,3 +42,4 @@ func (i *IntStack) Len() int {
 	return len(i.items)
 }
 
+// NewIntStack creates new IntStack
