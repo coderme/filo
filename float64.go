@@ -43,3 +43,4 @@ func (f *Float64Stack) Len() int {
 }
 
 // NewFloat64Stack creates new IntStack
+func NewFloat64Stack() *Float64Stack {
