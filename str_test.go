@@ -43,3 +43,4 @@ func BenchmarkStringStack(b *testing.B) {
 		r = stack.Pop()
 	}
 
+	strBenchLen = ln
