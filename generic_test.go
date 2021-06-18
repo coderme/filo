@@ -44,3 +44,4 @@ func BenchmarkGenericStack(b *testing.B) {
 
 }
 
+func ExampleGenericStack() {
