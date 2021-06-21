@@ -44,3 +44,4 @@ func (s *StringStack) Len() int {
 
 // NewStringStack creates new StringStack
 func NewStringStack() *StringStack {
+	return &StringStack{
