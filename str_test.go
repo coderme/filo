@@ -44,3 +44,4 @@ func BenchmarkStringStack(b *testing.B) {
 	}
 
 	strBenchLen = ln
+	strBenchResult = r
