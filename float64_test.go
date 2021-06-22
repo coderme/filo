@@ -45,3 +45,4 @@ func BenchmarkFloat64Stack(b *testing.B) {
 	float64BenchResult = r
 }
 
+func ExampleFloat64Stack() {
