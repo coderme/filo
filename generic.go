@@ -45,3 +45,4 @@ func NewGenericStack() *GenericStack {
 		mu: &sync.RWMutex{},
 	}
 }
+
