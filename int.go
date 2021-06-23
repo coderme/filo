@@ -45,3 +45,4 @@ func (i *IntStack) Len() int {
 // NewIntStack creates new IntStack
 func NewIntStack() *IntStack {
 	return &IntStack{
+		mu: &sync.RWMutex{},
