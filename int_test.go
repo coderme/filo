@@ -45,3 +45,4 @@ func BenchmarkIntStack(b *testing.B) {
 func ExampleIntStack() {
 	stack := NewIntStack()
 	data := []int{
+		1,
