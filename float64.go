@@ -46,3 +46,4 @@ func (f *Float64Stack) Len() int {
 func NewFloat64Stack() *Float64Stack {
 	return &Float64Stack{
 		mu: &sync.RWMutex{},
+	}
