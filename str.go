@@ -46,3 +46,4 @@ func (s *StringStack) Len() int {
 func NewStringStack() *StringStack {
 	return &StringStack{
 		mu: &sync.RWMutex{},
+	}
