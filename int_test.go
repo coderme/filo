@@ -46,3 +46,4 @@ func ExampleIntStack() {
 	stack := NewIntStack()
 	data := []int{
 		1,
+		2,
