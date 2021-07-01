@@ -47,3 +47,4 @@ func BenchmarkGenericStack(b *testing.B) {
 func ExampleGenericStack() {
 	stack := NewGenericStack()
 	data := []interface{}{
+		1,
