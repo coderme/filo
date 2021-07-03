@@ -48,3 +48,4 @@ func NewFloat64Stack() *Float64Stack {
 		mu: &sync.RWMutex{},
 	}
 }
+
