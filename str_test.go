@@ -47,3 +47,4 @@ func BenchmarkStringStack(b *testing.B) {
 	strBenchResult = r
 
 }
+
