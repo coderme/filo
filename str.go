@@ -47,3 +47,4 @@ func NewStringStack() *StringStack {
 	return &StringStack{
 		mu: &sync.RWMutex{},
 	}
+}
