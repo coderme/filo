@@ -48,3 +48,4 @@ func NewIntStack() *IntStack {
 		mu: &sync.RWMutex{},
 	}
 }
+
