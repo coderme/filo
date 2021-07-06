@@ -49,3 +49,4 @@ func ExampleFloat64Stack() {
 	stack := NewFloat64Stack()
 	data := []float64{
 		1.3,
+		2.3,
