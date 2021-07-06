@@ -49,3 +49,4 @@ func ExampleGenericStack() {
 	data := []interface{}{
 		1,
 		"a",
+		true,
