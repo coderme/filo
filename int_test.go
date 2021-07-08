@@ -49,3 +49,4 @@ func ExampleIntStack() {
 		2,
 		3,
 	}
+
