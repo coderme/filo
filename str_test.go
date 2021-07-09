@@ -49,3 +49,4 @@ func BenchmarkStringStack(b *testing.B) {
 }
 
 func ExampleStringStack() {
+	stack := NewStringStack()
