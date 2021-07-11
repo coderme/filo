@@ -50,3 +50,4 @@ func ExampleIntStack() {
 		3,
 	}
 
+	for _, d := range data {
