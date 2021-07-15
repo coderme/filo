@@ -52,3 +52,4 @@ func ExampleIntStack() {
 
 	for _, d := range data {
 		stack.Push(d)
+	}
