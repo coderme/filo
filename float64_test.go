@@ -53,3 +53,4 @@ func ExampleFloat64Stack() {
 		3.3,
 	}
 
+	for _, d := range data {
