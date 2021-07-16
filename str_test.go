@@ -53,3 +53,4 @@ func ExampleStringStack() {
 	data := []string{
 		"a",
 		"b",
+		"c",
