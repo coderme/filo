@@ -52,3 +52,4 @@ func ExampleStringStack() {
 	stack := NewStringStack()
 	data := []string{
 		"a",
+		"b",
