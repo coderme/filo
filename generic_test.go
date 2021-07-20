@@ -54,3 +54,4 @@ func ExampleGenericStack() {
 		'b',
 		[]string{
 			"g",
+			"o",
