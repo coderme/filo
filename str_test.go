@@ -54,3 +54,4 @@ func ExampleStringStack() {
 		"a",
 		"b",
 		"c",
+	}
