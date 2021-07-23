@@ -56,3 +56,4 @@ func ExampleFloat64Stack() {
 	for _, d := range data {
 		stack.Push(d)
 	}
+
