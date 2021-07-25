@@ -56,3 +56,4 @@ func ExampleStringStack() {
 		"c",
 	}
 
+	for _, d := range data {
