@@ -57,3 +57,4 @@ func ExampleFloat64Stack() {
 		stack.Push(d)
 	}
 
+	for stack.Len() > 0 {
