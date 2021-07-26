@@ -57,3 +57,4 @@ func ExampleGenericStack() {
 			"o",
 		},
 		[]int{
+			10,
