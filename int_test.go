@@ -57,3 +57,4 @@ func ExampleIntStack() {
 	for stack.Len() > 0 {
 		fmt.Println(stack.Pop())
 	}
+
