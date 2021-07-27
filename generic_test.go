@@ -58,3 +58,4 @@ func ExampleGenericStack() {
 		},
 		[]int{
 			10,
+			20,
