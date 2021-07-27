@@ -57,3 +57,4 @@ func ExampleStringStack() {
 	}
 
 	for _, d := range data {
+		stack.Push(d)
