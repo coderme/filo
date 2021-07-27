@@ -58,3 +58,4 @@ func ExampleIntStack() {
 		fmt.Println(stack.Pop())
 	}
 
+	// Output:
