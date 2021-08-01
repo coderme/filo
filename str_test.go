@@ -60,3 +60,4 @@ func ExampleStringStack() {
 		stack.Push(d)
 	}
 
+	for stack.Len() > 0 {
