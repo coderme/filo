@@ -61,3 +61,4 @@ func ExampleFloat64Stack() {
 		fmt.Println(stack.Pop())
 	}
 
+	// Output:
