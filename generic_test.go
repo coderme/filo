@@ -61,3 +61,4 @@ func ExampleGenericStack() {
 			20,
 			30,
 		},
+	}
