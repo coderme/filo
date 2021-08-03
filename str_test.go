@@ -61,3 +61,4 @@ func ExampleStringStack() {
 	}
 
 	for stack.Len() > 0 {
+		fmt.Println(stack.Pop())
