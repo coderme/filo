@@ -62,3 +62,4 @@ func ExampleIntStack() {
 	// 3
 	// 2
 	// 1
+
