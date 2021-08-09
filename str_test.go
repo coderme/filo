@@ -64,3 +64,4 @@ func ExampleStringStack() {
 		fmt.Println(stack.Pop())
 	}
 
+	// Output:
