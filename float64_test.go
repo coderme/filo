@@ -66,3 +66,4 @@ func ExampleFloat64Stack() {
 	// 2.3
 	// 1.3
 
+}
