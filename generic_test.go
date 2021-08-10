@@ -66,3 +66,4 @@ func ExampleGenericStack() {
 	for _, d := range data {
 		stack.Push(d)
 	}
+
