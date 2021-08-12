@@ -67,3 +67,4 @@ func ExampleGenericStack() {
 		stack.Push(d)
 	}
 
+	for stack.Len() > 0 {
