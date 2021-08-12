@@ -67,3 +67,4 @@ func ExampleStringStack() {
 	// Output:
 	// c
 	// b
+	// a
