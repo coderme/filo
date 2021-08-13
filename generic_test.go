@@ -70,3 +70,4 @@ func ExampleGenericStack() {
 	for stack.Len() > 0 {
 		fmt.Println(stack.Pop())
 	}
+
