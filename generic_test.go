@@ -71,3 +71,4 @@ func ExampleGenericStack() {
 		fmt.Println(stack.Pop())
 	}
 
+	// Output:
