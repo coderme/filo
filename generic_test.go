@@ -74,3 +74,4 @@ func ExampleGenericStack() {
 	// Output:
 	// [10 20 30]
 	// [g o]
+	// 98
