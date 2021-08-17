@@ -77,3 +77,4 @@ func ExampleGenericStack() {
 	// 98
 	// <nil>
 	// true
+	// a
