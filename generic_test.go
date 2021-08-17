@@ -75,3 +75,4 @@ func ExampleGenericStack() {
 	// [10 20 30]
 	// [g o]
 	// 98
+	// <nil>
