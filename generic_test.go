@@ -79,3 +79,4 @@ func ExampleGenericStack() {
 	// true
 	// a
 	// 1
+
