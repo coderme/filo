@@ -80,3 +80,4 @@ func ExampleGenericStack() {
 	// a
 	// 1
 
+}
